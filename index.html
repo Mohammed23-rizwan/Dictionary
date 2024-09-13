@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dictionary</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="main">
+        <div class="search-bar">
+          <input
+            type="search"
+            class="seraching"
+            id="searching"
+            placeholder="Search..."
+          /><label for="" onclick="search()">Serach</label>
+        </div>
+        <div class="menu">
+          <div class="textcontainer">
+            <h4 class="text" id="text">scence</h4>
+            <p id="partOfSpeech">noun : <span id="adj">"həˈləʊ"</span></p>
+          </div>
+          <p class="icons"><ion-icon name="volume-high-outline"></ion-icon></p>
+        </div>
+        <p class="output" id="output">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut neque
+          iusto illo sed similique repellat enim, exercitationem corrupti illum
+          facilis.
+        </p>
+      </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+  ></script>
+</html>
